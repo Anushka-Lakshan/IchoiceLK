@@ -1,7 +1,7 @@
 <?php
 
 
-$db = mysqli_connect("fdb21.awardspace.net","3091031_ichoice","sadungamage39","3091031_ichoice");
+$db = mysqli_connect("localhost","root","","ichoice");
 
 
 

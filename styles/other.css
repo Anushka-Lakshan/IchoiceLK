@@ -1,0 +1,159 @@
+/* shop styles */
+
+.breadcrumb{
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#content .breadcrumb > li + li::before{
+    content: ">\00a0";
+    color: #000;
+}
+
+@media (max-width: 991px){
+    #content .breadcrumb{
+        padding: 8px 0px;
+        text-align: center;
+    }
+}
+
+#productName{
+    color:rgb(51, 0, 255);
+    margin-bottom: 65px;
+
+}
+
+.form-group{
+    margin-bottom: 18px;
+
+}
+
+#productBox{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.price{
+    text-align: center;
+    /* line-height: 50px; */
+    font-size: 22px;
+}
+
+.litimg{
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+#details{
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+#details h4{
+    padding-bottom: 10px;
+}
+
+@media (max-width:500px){
+   
+    
+    .conform{
+        padding: 0px 20px;
+    }
+
+    .conform .box-header{
+        margin-bottom: 10px;
+    }
+
+}
+
+.conform{
+    padding: 0px 40px;
+}
+
+.conform .box-header{
+    margin-bottom: 25px;
+}
+
+.conform .form-group{
+    margin-bottom: 26px;
+}
+
+.conform .btn.btn-primary{
+    margin-top: 5px;
+}
+
+/* cart styles */
+
+#cart .table tbody tr td img{
+    width: 50px;
+}
+
+#content #cart .table tbody tr td input{
+    width: 40px;
+    text-align: right; 
+
+}
+
+#content #cart .table tbody tr td {
+    vertical-align: middle;
+}
+
+#content #cart .table tfoot{
+    font-size: 18px;
+}
+
+.box .box-footer{
+    background: #f7f7f7;
+    margin: 30px -20px -20px;
+    padding: 20px;
+    border-top: 1px solid #000;
+}
+
+.box .box-footer::before,
+.box .box-footer::after{
+    content: "";
+    display: table;
+}
+
+.box .box-footer::after{
+    clear: both;
+}
+
+.box .box-header{
+    background: #f7f7f7;
+    margin: 8px -20px 20px;
+    padding: 20px;
+    border-bottom: solid 1px #eee;
+}
+
+#order-summary table{
+    margin-bottom: 20px;
+}
+
+#order-sumamry table td{
+    color: #999999;
+}
+
+#order-sumamry table .total{
+    padding: 5px;
+    background: #f7f7f7;
+
+}
+
+#samehpro:not(.headline) {
+    height: 375px;
+    border: 1px rgb(167, 167, 167) solid;
+}
+
+#samehpro .img-responsive{
+    max-height: 240px;
+    padding-top: 15px;
+}
+
+#samehpro .text{
+    text-align: center;
+}
